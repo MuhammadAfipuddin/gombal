@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>Hai Cantik!</h1>
+    <div class="tenor-gif-embed" data-postid="16704234" data-share-method="host" data-aspect-ratio="1.22605" data-width="20%">
+        <a href="https://tenor.com/view/love-milk-and-mocha-bear-jump-hug-hearts-gif-16704234">Love Milk And Mocha Bear Sticker</a>
+        from
+        <a href="https://tenor.com/search/love-stickers">Love Stickers</a>
+    </div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <h1>Maukah Kau Jadi Pacarku?</h1>
+    <button id="btn-mau" onclick="alert('I LOVE YOU')">Mau</button>
+    <button id="btn-gamau" onclick="gamau(this)" style="position: absolute;">Gamau</button>
+</body>
+<script>
+    function gamau(id){
+        let mau = document.getElementById("btn-mau");
+        var i = Math.floor(Math.random() * 300) + 1;
+        var j = Math.floor(Math.random() * 300) + mau.offsetTop
+        id.style.left = i + "px";
+        id.style.top = j + "px";
+    }
+</script>
+</html>
